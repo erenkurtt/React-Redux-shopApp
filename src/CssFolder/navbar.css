@@ -1,0 +1,36 @@
+.ProductList {
+    width: 50vw;
+    border-bottom: 1px solid #f0ebeb;
+}
+
+.price{
+    font-size: 1.7em;
+    color: rgb(55, 55, 131); 
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.deleteButton{
+    text-align: center;
+    margin:1em 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .ProductList {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .ProductList {
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .ProductList {
+        width: 60vw;
+    }
+}
