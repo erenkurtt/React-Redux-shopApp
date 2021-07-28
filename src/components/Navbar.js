@@ -72,11 +72,11 @@ function Navbar({ addBasket, addFav, products }) {
                             <Menu.Item key={uuidv4()} className="ProductList" onClick={() => setVisibility(true)} >
                                 <Row>
                                     <Col span={4} >
-                                        <img src={data.image} alt="something" style={{ height: "12vh" }} ></img>
+                                        <img src={data.image} alt="something" className="image" ></img>
                                     </Col>
                                     <Col span={16}>
-                                        <p className={classes.productName} > {data.title}  </p>
-                                        <p className={classes.categoryName} > {data.category} </p>
+                                        <p className="productName" > {data.title}  </p>
+                                        <p className="categoryName" > {data.category} </p>
 
 
                                     </Col>

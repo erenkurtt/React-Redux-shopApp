@@ -1,4 +1,5 @@
 import React from 'react'
+import '../CssFolder/Product.css';
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux'
 import { useSelector } from "react-redux"
@@ -29,7 +30,6 @@ import { v4 as uuidv4 } from 'uuid';
 const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: 345,
-        margin: "2%"
     },
     media: {
         height: 0,
@@ -199,7 +199,7 @@ const Products = () => {
                         && ( data.price >= state.priceFrom && data.price <= state.priceTo  )
                         && (data.category === state.category || "" === state.category)
                         &&
-                        <Col xs={24} sm={12} md={8} lg={6} key={uuidv4()}  >
+                        <Col xs={24} sm={12} md={8} lg={6} key={uuidv4()} className="responsive" >
                             <Card className={classes.root}>
                                 <CardHeader
                                     avatar={

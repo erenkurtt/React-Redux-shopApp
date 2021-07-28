@@ -6,6 +6,7 @@
 .price{
     font-size: 1.7em;
     color: rgb(55, 55, 131); 
+    margin-left: 3vh;
 }
 p{
     margin-top: 0;
@@ -13,24 +14,44 @@ p{
 }
 .deleteButton{
     text-align: center;
-    margin:1em 0;
+    margin:1em 3vh;
+}
+.image{
+    height: 12vh;
+    width: 12vh;
 }
 
+.productName {
+    font-size: 1.5em;
+    color: #68756c;
+    margin: 2% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.categoryName {
+    font-size: 1.1em;
+    color: #68756c;
+}
 
 @media screen and (max-width: 600px) {
     .ProductList {
         width: 100vw;
+        overflow: scroll;
+    }
+    .image{
+        height: 8vh;
+        width: 8vh;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .ProductList {
-        width: 80vw;
+        width: 100vw;
     }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
     .ProductList {
-        width: 60vw;
+        width: 70vw;
     }
 }

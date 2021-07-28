@@ -1,0 +1,11 @@
+.responsive{
+   
+    padding: 1%
+}
+
+@media screen and (max-width: 575px) {
+    .responsive{
+        padding-left: 16%;
+        padding-right: 5%;
+    }
+}
