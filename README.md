@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+(Sometimes herokuapp might be crashed on Crome. If application crashs, please reload the page.)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
